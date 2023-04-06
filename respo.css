@@ -1,0 +1,51 @@
+/* -------------------------resp--------------------------------- */
+.live {
+  transform: scale(1);
+}
+
+.icons {
+  width: 33px;
+  cursor: pointer;
+  position: absolute;
+  right: 43px;
+}
+
+@media (max-width:992px) {
+
+  .icons span {
+    margin: 3px 0;
+    display: block;
+    background-color: #ffffff;
+    width: 90%;
+    height: 5px;
+  }
+
+  .icons span:hover {
+    background-color: #162938;
+  }
+
+  header h2 {
+    font-size: 1.5em !important;
+  }
+
+  header nav {
+    transform: scale(0);
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    text-align: center;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.5s;
+  }
+
+  header nav a {
+    width: 100%;
+  }
+
+  header nav button {
+    margin-top: 10px;
+  }
+}
+/* -------------------------resp--------------------------------- */
